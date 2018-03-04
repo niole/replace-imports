@@ -1,0 +1,24 @@
+#import "./HardwareTierFragment.graphql"
+#import "./WorkspaceDefinitionFragment.graphql"
+
+fragment ProjectFragment on Project {
+  id
+  name
+  owner {
+    username
+    url
+  }
+  selectedHardwareTier {
+    ...HardwareTierFragment
+  }
+  availableHardwareTiers {
+    nodes {
+      ...HardwareTierFragment
+    }
+  }
+  availableWorkspaceDefinitions {
+    nodes {
+      ...WorkspaceDefinitionFragment
+    }
+  }
+}

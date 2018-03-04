@@ -1,0 +1,5 @@
+fragment RunEventFragment on RunEvent {
+  id
+  eventType
+  occurredAt
+}

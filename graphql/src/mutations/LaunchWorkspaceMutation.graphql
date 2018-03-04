@@ -1,0 +1,21 @@
+#import "../fragments/WorkspaceFragment.graphql"
+
+mutation LaunchWorkspaceMutation(
+  $projectId: ID!
+  $workspaceDefinitionId: ID!
+  $hardwareTierId: ID
+  $title: String
+) {
+  launchWorkspace(
+    input: {
+      projectId: $projectId
+      workspaceDefinitionId: $workspaceDefinitionId
+      hardwareTierId: $hardwareTierId
+      title: $title
+    }
+  ) {
+    workspace {
+      ...WorkspaceFragment
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "default": {
+        "url": "http://app.local.domino.tech/v3/graphql",
+        "headers": {
+          "X-Domino-Api-Key": "domino"
+        }
+      },
+      "minikube": {
+        "url": "http://minikube.local.domino.tech/v3/graphql",
+        "headers": {
+          "X-Domino-Api-Key": "domino"
+        }
+      }
+    }
+  }
+}

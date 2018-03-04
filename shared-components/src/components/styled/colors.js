@@ -1,0 +1,10 @@
+export const shady4 = '#DDDDDD';
+export const focusedGrey = '#F6F6F6';
+export const clickableBlue = '#4c89d6';
+export const defaultBootstrapBorderColor = '#ddd';
+export const baseColor = '#172434';
+export const primaryButtonBackground = '#2D71C7';
+export const rejectRedColor = '#E9564B';
+export const secondaryWarningRed = '#CC4B41';
+export const notificationBackground = '#737B85';
+export const subGrey = '#7A8899';

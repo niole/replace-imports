@@ -1,0 +1,49 @@
+#import './UserFragment.graphql'
+#import './RunStatusFragment.graphql'
+#import './RunEventFragment.graphql'
+#import './HardwareTierFragment.graphql'
+#import './EnvironmentRevisionFragment.graphql'
+
+fragment RunFragment on Run {
+  id
+  title
+  number
+  queuedAt
+  startedAt
+  completedAt
+  archived
+  input {
+    commitId
+    environmentRevision {
+      ...EnvironmentRevisionFragment
+    }
+    url
+  }
+  meta {
+    hardwareTier {
+      ...HardwareTierFragment
+    }
+    executorInstance {
+      id
+    }
+  }
+  output {
+    commitId
+    commitMessage
+    url
+  }
+  project {
+    id
+  }
+  creator {
+    ...UserFragment
+  }
+  stopRequested
+  status {
+    ...RunStatusFragment
+  }
+  latestEvent {
+    ...RunEventFragment
+  }
+  url
+}

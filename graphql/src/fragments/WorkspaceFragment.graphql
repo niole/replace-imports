@@ -1,0 +1,10 @@
+#import "./RunFragment.graphql"
+
+fragment WorkspaceFragment on Workspace {
+  id
+  url
+  definitionTitle
+  run {
+    ...RunFragment
+  }
+}

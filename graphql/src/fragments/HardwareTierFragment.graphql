@@ -1,0 +1,17 @@
+fragment HardwareTierFragment on HardwareTier {
+  id
+  name
+  capacity {
+    level
+  }
+  price {
+    unitPrice {
+      value
+      currencyCode
+    }
+    unit
+  }
+  cores
+  RAM
+  hidden
+}

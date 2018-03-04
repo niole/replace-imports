@@ -1,0 +1,6344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots FilesBrowserTable basic 1`] = `
+<div>
+  <div
+    className="ReactTable -highlight FilesBrowserTable__StyledReactTable-kYUsiW eYuYEd"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      style={undefined}
+    >
+      <div
+        className="rt-thead -headerGroups"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "175 0 auto",
+                "maxWidth": null,
+                "width": "425px",
+              }
+            }
+          >
+            <ol
+              aria-label="breadcrumbs"
+              className="FilesBrowserTable__StyledBreadcrumb-kfWVNk fyBKsM breadcrumb"
+              role="navigation"
+              style={
+                Object {
+                  "background": "white",
+                }
+              }
+            >
+              <li
+                className=""
+              >
+                <a
+                  href="a"
+                  onClick={[Function]}
+                  target={undefined}
+                  title={undefined}
+                >
+                  a
+                </a>
+              </li>
+              <li
+                className="active"
+              >
+                <span>
+                  b
+                   
+                  /
+                </span>
+              </li>
+            </ol>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "25 0 auto",
+                "maxWidth": "25px",
+                "width": "25px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              <input
+                checked={undefined}
+                className="FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                id="toggle-all-checkboxes"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Name
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": null,
+                "width": "75px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Size
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "150 0 auto",
+                "maxWidth": "150px",
+                "width": "150px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Modified
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": "75px",
+                "width": "75px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              
+            </div>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-thead -filters"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "25 0 auto",
+                "maxWidth": "25px",
+                "width": "25px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <span
+              className="FilesBrowserTable__StyledFilterIcon-eDuUey gsdQKP glyphicon glyphicon-filter"
+            />
+            <input
+              className="custom-filter-input"
+              onChange={[Function]}
+              placeholder="Filter by Filename"
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": null,
+                "width": "75px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "150 0 auto",
+                "maxWidth": "150px",
+                "width": "150px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": "75px",
+                "width": "75px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -odd"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="domino/dir/file"
+                data-type="file"
+                data-url="urltodata"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledFileIcon-ecpvJV dRdklI"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M1,24h22V6.586L16.414,0H1V24z M3,2h12v6h6v14H3V2z"
+                    fill="currentColor"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="6"
+                    x="6"
+                    y="6"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="11"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="16"
+                  />
+                </svg>
+                dominostats.json
+              </a>
+              <span
+                aria-label="Learn how to enable Run Diagnostic Statistics."
+                className="inline-help"
+              >
+                <a
+                  className="FilesBrowserTable__QuestionLink-hAeyDX dwoSUo"
+                  href=""
+                  onBlur={[Function]}
+                  onClick={null}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  target="_blank"
+                >
+                  <span
+                    className="glyphicon glyphicon-question-sign"
+                  />
+                </a>
+              </span>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              6kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              January 2nd 2034, 12:00:00 am
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="edit/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Edit
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="cmprev/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Compare Revisions
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Download
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="viewlatestfiles/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        View Latest Files
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="share/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Share
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -even"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="comino/dir/file"
+                data-type="file"
+                data-url="urltodata"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledFileIcon-ecpvJV dRdklI"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M1,24h22V6.586L16.414,0H1V24z M3,2h12v6h6v14H3V2z"
+                    fill="currentColor"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="6"
+                    x="6"
+                    y="6"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="11"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="16"
+                  />
+                </svg>
+                /notmodified/dir/file
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              7kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              -
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="edit/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Edit
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="cmprev/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Compare Revisions
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Download
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="viewlatestfiles/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        View Latest Files
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="share/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Share
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -odd"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="vomino/dir/file"
+                data-type="directory"
+                data-url="urltodata"
+                datatype="directory"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledDirectoryIcon-fnieVd dEblSu"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M11,0H0v7v2v15h24V9V7V3H11V0z M22,22H2V9h20V22z M22,5v2H2V2h7v3H22z"
+                    fill="currentColor"
+                  />
+                </svg>
+                dir
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              1kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              January 2nd 2034, 12:00:00 am
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Dowload
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -even"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="zomino/dir/file"
+                data-type="directory"
+                data-url="urltodata"
+                datatype="directory"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledDirectoryIcon-fnieVd dEblSu"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M11,0H0v7v2v15h24V9V7V3H11V0z M22,22H2V9h20V22z M22,5v2H2V2h7v3H22z"
+                    fill="currentColor"
+                  />
+                </svg>
+                dir
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              0kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              -
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Dowload
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots FilesBrowserTable cant edit, can't download dirs 1`] = `
+<div>
+  <div
+    className="ReactTable -highlight FilesBrowserTable__StyledReactTable-kYUsiW eYuYEd"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      style={undefined}
+    >
+      <div
+        className="rt-thead -headerGroups"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "175 0 auto",
+                "maxWidth": null,
+                "width": "425px",
+              }
+            }
+          >
+            <ol
+              aria-label="breadcrumbs"
+              className="FilesBrowserTable__StyledBreadcrumb-kfWVNk fyBKsM breadcrumb"
+              role="navigation"
+              style={
+                Object {
+                  "background": "white",
+                }
+              }
+            >
+              <li
+                className=""
+              >
+                <a
+                  href="a"
+                  onClick={[Function]}
+                  target={undefined}
+                  title={undefined}
+                >
+                  a
+                </a>
+              </li>
+              <li
+                className="active"
+              >
+                <span>
+                  b
+                   
+                  /
+                </span>
+              </li>
+            </ol>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "25 0 auto",
+                "maxWidth": "25px",
+                "width": "25px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              <input
+                checked={undefined}
+                className="FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                id="toggle-all-checkboxes"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Name
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": null,
+                "width": "75px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Size
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "150 0 auto",
+                "maxWidth": "150px",
+                "width": "150px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Modified
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": "75px",
+                "width": "75px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              
+            </div>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-thead -filters"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "25 0 auto",
+                "maxWidth": "25px",
+                "width": "25px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <span
+              className="FilesBrowserTable__StyledFilterIcon-eDuUey gsdQKP glyphicon glyphicon-filter"
+            />
+            <input
+              className="custom-filter-input"
+              onChange={[Function]}
+              placeholder="Filter by Filename"
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": null,
+                "width": "75px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "150 0 auto",
+                "maxWidth": "150px",
+                "width": "150px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": "75px",
+                "width": "75px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -odd"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="domino/dir/file"
+                data-type="file"
+                data-url="urltodata"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledFileIcon-ecpvJV dRdklI"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M1,24h22V6.586L16.414,0H1V24z M3,2h12v6h6v14H3V2z"
+                    fill="currentColor"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="6"
+                    x="6"
+                    y="6"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="11"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="16"
+                  />
+                </svg>
+                dominostats.json
+              </a>
+              <span
+                aria-label="Learn how to enable Run Diagnostic Statistics."
+                className="inline-help"
+              >
+                <a
+                  className="FilesBrowserTable__QuestionLink-hAeyDX dwoSUo"
+                  href=""
+                  onBlur={[Function]}
+                  onClick={null}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  target="_blank"
+                >
+                  <span
+                    className="glyphicon glyphicon-question-sign"
+                  />
+                </a>
+              </span>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              6kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              January 2nd 2034, 12:00:00 am
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="cmprev/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Compare Revisions
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Download
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="viewlatestfiles/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        View Latest Files
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="share/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Share
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -even"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="comino/dir/file"
+                data-type="file"
+                data-url="urltodata"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledFileIcon-ecpvJV dRdklI"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M1,24h22V6.586L16.414,0H1V24z M3,2h12v6h6v14H3V2z"
+                    fill="currentColor"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="6"
+                    x="6"
+                    y="6"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="11"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="16"
+                  />
+                </svg>
+                /notmodified/dir/file
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              7kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              -
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="cmprev/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Compare Revisions
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Download
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="viewlatestfiles/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        View Latest Files
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="share/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Share
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -odd"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            />
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledDirectoryIcon-fnieVd dEblSu"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M11,0H0v7v2v15h24V9V7V3H11V0z M22,22H2V9h20V22z M22,5v2H2V2h7v3H22z"
+                    fill="currentColor"
+                  />
+                </svg>
+                dir
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              1kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              January 2nd 2034, 12:00:00 am
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -even"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            />
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledDirectoryIcon-fnieVd dEblSu"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M11,0H0v7v2v15h24V9V7V3H11V0z M22,22H2V9h20V22z M22,5v2H2V2h7v3H22z"
+                    fill="currentColor"
+                  />
+                </svg>
+                dir
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              0kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              -
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots FilesBrowserTable empty comits 1`] = `
+<div>
+  <div
+    className="ReactTable -highlight FilesBrowserTable__StyledReactTable-kYUsiW eYuYEd"
+    style={Object {}}
+  >
+    <div
+      className="rt-table"
+      style={undefined}
+    >
+      <div
+        className="rt-thead -headerGroups"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "175 0 auto",
+                "maxWidth": null,
+                "width": "425px",
+              }
+            }
+          >
+            <ol
+              aria-label="breadcrumbs"
+              className="FilesBrowserTable__StyledBreadcrumb-kfWVNk fyBKsM breadcrumb"
+              role="navigation"
+              style={
+                Object {
+                  "background": "white",
+                }
+              }
+            >
+              <li
+                className=""
+              >
+                <a
+                  href="a"
+                  onClick={[Function]}
+                  target={undefined}
+                  title={undefined}
+                >
+                  a
+                </a>
+              </li>
+              <li
+                className="active"
+              >
+                <span>
+                  b
+                   
+                  /
+                </span>
+              </li>
+            </ol>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-thead -header"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "25 0 auto",
+                "maxWidth": "25px",
+                "width": "25px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              <input
+                checked={undefined}
+                className="FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                id="toggle-all-checkboxes"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Name
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": null,
+                "width": "75px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Size
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "150 0 auto",
+                "maxWidth": "150px",
+                "width": "150px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              Modified
+            </div>
+            <div
+              className="rt-resizer"
+              onMouseDown={[Function]}
+              onTouchStart={[Function]}
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-resizable-header -cursor-pointer rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": "75px",
+                "width": "75px",
+              }
+            }
+          >
+            <div
+              className="rt-resizable-header-content"
+            >
+              
+            </div>
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-thead -filters"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr"
+          style={undefined}
+        >
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "25 0 auto",
+                "maxWidth": "25px",
+                "width": "25px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "100 0 auto",
+                "maxWidth": null,
+                "width": "100px",
+              }
+            }
+          >
+            <span
+              className="FilesBrowserTable__StyledFilterIcon-eDuUey gsdQKP glyphicon glyphicon-filter"
+            />
+            <input
+              className="custom-filter-input"
+              onChange={[Function]}
+              placeholder="Filter by Filename"
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": null,
+                "width": "75px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "150 0 auto",
+                "maxWidth": "150px",
+                "width": "150px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            className=" rt-th custom-toggle"
+            onClick={[Function]}
+            style={
+              Object {
+                "flex": "75 0 auto",
+                "maxWidth": "75px",
+                "width": "75px",
+              }
+            }
+          >
+            <input
+              onChange={[Function]}
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+              type="text"
+              value=""
+            />
+            <div
+              className="UpDownArrowButtons__ToggleButtonContainer-cHQcLR HLxZd"
+              height={20}
+              width={15}
+            >
+              <svg
+                className="up"
+                height={24}
+                onClick={undefined}
+                transform="rotate(180)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              <svg
+                className="down"
+                height={24}
+                onClick={undefined}
+                transform="rotate(360)"
+                viewBox="0 0 24 24"
+                width={24}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="rt-tbody"
+        style={
+          Object {
+            "minWidth": "425px",
+          }
+        }
+      >
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -odd"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="domino/dir/file"
+                data-type="file"
+                data-url="urltodata"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledFileIcon-ecpvJV dRdklI"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M1,24h22V6.586L16.414,0H1V24z M3,2h12v6h6v14H3V2z"
+                    fill="currentColor"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="6"
+                    x="6"
+                    y="6"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="11"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="16"
+                  />
+                </svg>
+                dominostats.json
+              </a>
+              <span
+                aria-label="Learn how to enable Run Diagnostic Statistics."
+                className="inline-help"
+              >
+                <a
+                  className="FilesBrowserTable__QuestionLink-hAeyDX dwoSUo"
+                  href=""
+                  onBlur={[Function]}
+                  onClick={null}
+                  onFocus={[Function]}
+                  onMouseOut={[Function]}
+                  onMouseOver={[Function]}
+                  target="_blank"
+                >
+                  <span
+                    className="glyphicon glyphicon-question-sign"
+                  />
+                </a>
+              </span>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              6kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              January 2nd 2034, 12:00:00 am
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        <form
+                          action="launchnotebookurl"
+                          className=""
+                          method="POST"
+                          target="_blank"
+                        >
+                          <input
+                            name="csrfToken"
+                            type="hidden"
+                            value="c^s(r*f&t!o@k%e-n"
+                          />
+                          <span>
+                            <input
+                              name="filePath"
+                              type="hidden"
+                              value="domino/dir/file"
+                            />
+                            <input
+                              name="commitId"
+                              type="hidden"
+                              value="def"
+                            />
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                            >
+                              Launch Notebook
+                            </a>
+                          </span>
+                        </form>
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        data-name="'domino/dir/file'"
+                        data-target="#run-modal"
+                        data-toggle="modal"
+                        href="#run-modal"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        <form
+                          action={undefined}
+                          className=""
+                          method="POST"
+                        >
+                          <input
+                            name="csrfToken"
+                            type="hidden"
+                            value="c^s(r*f&t!o@k%e-n"
+                          />
+                          <span>
+                            <input
+                              id="commandToRun"
+                              name="commandToRun"
+                              type="hidden"
+                              value="'domino/dir/file'"
+                            />
+                            Run
+                          </span>
+                        </form>
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="edit/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Edit
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="cmprev/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Compare Revisions
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Download
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="viewlatestfiles/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        View Latest Files
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="share/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Share
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -even"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="comino/dir/file"
+                data-type="file"
+                data-url="urltodata"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledFileIcon-ecpvJV dRdklI"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M1,24h22V6.586L16.414,0H1V24z M3,2h12v6h6v14H3V2z"
+                    fill="currentColor"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="6"
+                    x="6"
+                    y="6"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="11"
+                  />
+                  <rect
+                    fill="currentColor"
+                    height="2"
+                    width="12"
+                    x="6"
+                    y="16"
+                  />
+                </svg>
+                /notmodified/dir/file
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              7kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              -
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        <form
+                          action="launchnotebookurl"
+                          className=""
+                          method="POST"
+                          target="_blank"
+                        >
+                          <input
+                            name="csrfToken"
+                            type="hidden"
+                            value="c^s(r*f&t!o@k%e-n"
+                          />
+                          <span>
+                            <input
+                              name="filePath"
+                              type="hidden"
+                              value="domino/dir/file"
+                            />
+                            <input
+                              name="commitId"
+                              type="hidden"
+                              value="def"
+                            />
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                            >
+                              Launch Notebook
+                            </a>
+                          </span>
+                        </form>
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        data-name="'domino/dir/file'"
+                        data-target="#run-modal"
+                        data-toggle="modal"
+                        href="#run-modal"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        <form
+                          action={undefined}
+                          className=""
+                          method="POST"
+                        >
+                          <input
+                            name="csrfToken"
+                            type="hidden"
+                            value="c^s(r*f&t!o@k%e-n"
+                          />
+                          <span>
+                            <input
+                              id="commandToRun"
+                              name="commandToRun"
+                              type="hidden"
+                              value="'domino/dir/file'"
+                            />
+                            Run
+                          </span>
+                        </form>
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="edit/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Edit
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="cmprev/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Compare Revisions
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Download
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="viewlatestfiles/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        View Latest Files
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="share/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Share
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -odd"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="vomino/dir/file"
+                data-type="directory"
+                data-url="urltodata"
+                datatype="directory"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledDirectoryIcon-fnieVd dEblSu"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M11,0H0v7v2v15h24V9V7V3H11V0z M22,22H2V9h20V22z M22,5v2H2V2h7v3H22z"
+                    fill="currentColor"
+                  />
+                </svg>
+                dir
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              1kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              January 2nd 2034, 12:00:00 am
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Dowload
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="rt-tr-group"
+        >
+          <div
+            className="rt-tr -even"
+            style={undefined}
+          >
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "25 0 auto",
+                  "maxWidth": "25px",
+                  "width": "25px",
+                }
+              }
+            >
+              <input
+                checked={false}
+                className="selected-file-checkbox FilesBrowserTable__ClickableCheckbox-kTqPFO fqBfTm"
+                data-path="zomino/dir/file"
+                data-type="directory"
+                data-url="urltodata"
+                datatype="directory"
+                onChange={[Function]}
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "100 0 auto",
+                  "maxWidth": null,
+                  "width": "100px",
+                }
+              }
+            >
+              <a
+                className="data-filename"
+                href="urlforfilename"
+              >
+                <svg
+                  className="FilesBrowserTable__StyledDirectoryIcon-fnieVd dEblSu"
+                  height={14}
+                  onClick={undefined}
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  width={10}
+                  xmlns="http://www.w3.org/svg/2000"
+                >
+                  <path
+                    d="M11,0H0v7v2v15h24V9V7V3H11V0z M22,22H2V9h20V22z M22,5v2H2V2h7v3H22z"
+                    fill="currentColor"
+                  />
+                </svg>
+                dir
+              </a>
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": null,
+                  "width": "75px",
+                }
+              }
+            >
+              0kb
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "150 0 auto",
+                  "maxWidth": "150px",
+                  "width": "150px",
+                }
+              }
+            >
+              -
+            </div>
+            <div
+              className="rt-td"
+              onClick={[Function]}
+              style={
+                Object {
+                  "flex": "75 0 auto",
+                  "maxWidth": "75px",
+                  "width": "75px",
+                }
+              }
+            >
+              <div
+                className="FilesBrowserTable__StyledDropdownButton-dsGLvq dRZhBs"
+              >
+                <div
+                  className="dropdown btn-group btn-group-sm"
+                >
+                  <button
+                    aria-expanded={false}
+                    aria-haspopup={true}
+                    className="dropdown-toggle btn btn-sm btn-default"
+                    disabled={false}
+                    id="dropdown-size-small"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                    type="button"
+                  >
+                    <svg
+                      className="gear-icon"
+                      height={14}
+                      onClick={undefined}
+                      version="1.1"
+                      viewBox="0 0 16 16"
+                      width={14}
+                      xmlns="http://www.w3.org/svg/2000"
+                    >
+                      <path
+                        d="M13.297,5.184l1.067-2.134L12.95,1.636l-2.134,1.067c-0.336-0.179-0.691-0.328-1.062-0.441L9,0H7L6.246,2.262  C5.875,2.375,5.52,2.524,5.184,2.703L3.05,1.636L1.636,3.05l1.067,2.134C2.524,5.52,2.375,5.875,2.262,6.246L0,7v2l2.262,0.754  c0.113,0.371,0.262,0.725,0.441,1.062L1.636,12.95l1.414,1.414l2.134-1.067c0.336,0.179,0.691,0.328,1.062,0.441L7,16h2l0.754-2.262  c0.371-0.113,0.726-0.262,1.062-0.441l2.134,1.067l1.414-1.414l-1.067-2.134c0.179-0.336,0.328-0.691,0.441-1.062L16,9V7  l-2.262-0.754C13.625,5.875,13.476,5.52,13.297,5.184z M8,11c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S9.657,11,8,11z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    aria-labelledby="dropdown-size-small"
+                    className="dropdown-menu"
+                    role="menu"
+                  >
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="download/url"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Dowload
+                      </a>
+                    </li>
+                    <li
+                      className="divider"
+                      onKeyDown={[Function]}
+                      role="separator"
+                      style={undefined}
+                    />
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        id={undefined}
+                        onClick={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Move
+                      </a>
+                    </li>
+                    <li
+                      className=""
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Rename
+                      </a>
+                    </li>
+                    <li
+                      className="delete-link"
+                      role="presentation"
+                      style={undefined}
+                    >
+                      <a
+                        href="#"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="menuitem"
+                        tabIndex="-1"
+                      >
+                        Delete
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="-loading"
+    >
+      <div
+        className="-loading-inner"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots RevisionControl basic 1`] = `
+<button
+  aria-expanded={false}
+  aria-haspopup={true}
+  className="dropdown-toggle btn btn-sm btn-secondary"
+  disabled={false}
+  id="revision-control"
+  onClick={[Function]}
+  role="button"
+  type="button"
+>
+  Revision: 
+  <span
+    title="fae4850800c994b440ebd7325cd93c20ae70780e"
+  >
+    fae4850
+  </span>
+   
+  April 19, 2017 @ 06:00 am
+   
+  <span
+    className="caret"
+  />
+</button>
+`;
+
+exports[`Storyshots RevisionSelectMenu basic 1`] = `
+<div
+  className="SelectMenu__SelectMenu-cXDnZc fGvuPo"
+>
+  <header
+    className="SelectMenu__Header-ejXPEI klTaCb"
+  >
+    <strong
+      className="SelectMenu__Title-kYHKzn fDUyVS"
+    >
+      Select a Revision
+    </strong>
+    <a
+      className="SelectMenu__CloseButton-limGQD iOuQxD"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="SelectMenu__FilterContainer-dTClXB bXJoye"
+  >
+    <input
+      autoFocus={true}
+      className="SelectMenu__FilterInput-fQIDyq emNxxF"
+      onChange={[Function]}
+      placeholder="Filter Revisions"
+      type="search"
+      value={undefined}
+    />
+  </div>
+  <ol
+    className="SelectMenu__RevisionList-djyMud jCKnhX"
+  >
+    <div>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Dolore pariatur laboris aliquip sit ut ipsum minim ut.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            kshenk
+             
+            <span
+              title="April 19, 2017 @ 06:00 am"
+            >
+              April 19, 2017 @ 06:00 am
+            </span>
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="fae4850800c994b440ebd7325cd93c20ae70780e"
+          >
+            fae4850
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Veniam adipisicing anim excepteur est deserunt duis minim minim culpa Lorem id culpa occaecat.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            trob
+             
+            <span
+              title="April 19, 2017 @ 02:40 am"
+            >
+              April 19, 2017 @ 02:40 am
+            </span>
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="4ee94fd8e3029aa74d0a6d22928c47bcf693e461"
+          >
+            4ee94fd
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Culpa dolore culpa dolore officia deserunt laborum deserunt deserunt minim eiusmod culpa.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            earino
+             
+            <span
+              title="April 18, 2017 @ 11:20 pm"
+            >
+              April 18, 2017 @ 11:20 pm
+            </span>
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="1c65a9ad03cd871c7d27af72259ca7088160ffb9"
+          >
+            1c65a9a
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Labore qui voluptate adipisicing ut ex tempor.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            jdoe
+             
+            <span
+              title="April 18, 2017 @ 08:00 pm"
+            >
+              April 18, 2017 @ 08:00 pm
+            </span>
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="d21782d260aa1326252a872942f1279545d4c7bb"
+          >
+            d21782d
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Amet aute reprehenderit dolore mollit esse commodo nulla eu adipisicing minim pariatur magna reprehenderit fugiat.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            jdoe
+             
+            <span
+              title="April 18, 2017 @ 04:40 pm"
+            >
+              April 18, 2017 @ 04:40 pm
+            </span>
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="0bbe19ba81766944924475ed5cee58d514ff0e7e"
+          >
+            0bbe19b
+          </span>
+        </a>
+      </li>
+    </div>
+  </ol>
+</div>
+`;
+
+exports[`Storyshots RevisionSelectMenu filter on "excepteur" 1`] = `
+<div
+  className="SelectMenu__SelectMenu-cXDnZc fGvuPo"
+>
+  <header
+    className="SelectMenu__Header-ejXPEI klTaCb"
+  >
+    <strong
+      className="SelectMenu__Title-kYHKzn fDUyVS"
+    >
+      Select a Revision
+    </strong>
+    <a
+      className="SelectMenu__CloseButton-limGQD iOuQxD"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="SelectMenu__FilterContainer-dTClXB bXJoye"
+  >
+    <input
+      autoFocus={true}
+      className="SelectMenu__FilterInput-fQIDyq emNxxF"
+      onChange={[Function]}
+      placeholder="Filter Revisions"
+      type="search"
+      value="excepteur"
+    />
+  </div>
+  <ol
+    className="SelectMenu__RevisionList-djyMud jCKnhX"
+  >
+    <div>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Veniam adipisicing anim excepteur est deserunt duis minim minim culpa Lorem id culpa occaecat.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            trob
+             
+            <span
+              title="April 19, 2017 @ 02:40 am"
+            >
+              April 19, 2017 @ 02:40 am
+            </span>
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="4ee94fd8e3029aa74d0a6d22928c47bcf693e461"
+          >
+            4ee94fd
+          </span>
+        </a>
+      </li>
+    </div>
+  </ol>
+</div>
+`;
+
+exports[`Storyshots RevisionSelectMenu with run ids 1`] = `
+<div
+  className="SelectMenu__SelectMenu-cXDnZc fGvuPo"
+>
+  <header
+    className="SelectMenu__Header-ejXPEI klTaCb"
+  >
+    <strong
+      className="SelectMenu__Title-kYHKzn fDUyVS"
+    >
+      Select a Revision
+    </strong>
+    <a
+      className="SelectMenu__CloseButton-limGQD iOuQxD"
+      onClick={[Function]}
+    />
+  </header>
+  <div
+    className="SelectMenu__FilterContainer-dTClXB bXJoye"
+  >
+    <input
+      autoFocus={true}
+      className="SelectMenu__FilterInput-fQIDyq emNxxF"
+      onChange={[Function]}
+      placeholder="Filter Revisions"
+      type="search"
+      value={undefined}
+    />
+  </div>
+  <ol
+    className="SelectMenu__RevisionList-djyMud jCKnhX"
+  >
+    <div>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Dolore pariatur laboris aliquip sit ut ipsum minim ut.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            kshenk
+             
+            <span
+              title="April 19, 2017 @ 06:00 am"
+            >
+              April 19, 2017 @ 06:00 am
+            </span>
+             · #2
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="fae4850800c994b440ebd7325cd93c20ae70780e"
+          >
+            fae4850
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Veniam adipisicing anim excepteur est deserunt duis minim minim culpa Lorem id culpa occaecat.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            trob
+             
+            <span
+              title="April 19, 2017 @ 02:40 am"
+            >
+              April 19, 2017 @ 02:40 am
+            </span>
+             · #70
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="4ee94fd8e3029aa74d0a6d22928c47bcf693e461"
+          >
+            4ee94fd
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Culpa dolore culpa dolore officia deserunt laborum deserunt deserunt minim eiusmod culpa.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            earino
+             
+            <span
+              title="April 18, 2017 @ 11:20 pm"
+            >
+              April 18, 2017 @ 11:20 pm
+            </span>
+             · #38
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="1c65a9ad03cd871c7d27af72259ca7088160ffb9"
+          >
+            1c65a9a
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Labore qui voluptate adipisicing ut ex tempor.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            jdoe
+             
+            <span
+              title="April 18, 2017 @ 08:00 pm"
+            >
+              April 18, 2017 @ 08:00 pm
+            </span>
+             · #94
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="d21782d260aa1326252a872942f1279545d4c7bb"
+          >
+            d21782d
+          </span>
+        </a>
+      </li>
+      <li
+        className="SelectMenu__RevisionListItem-glATSC czmAhm"
+      >
+        <a
+          className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+          href="#"
+          onClick={[Function]}
+        >
+          <strong
+            className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+          >
+            “
+            Amet aute reprehenderit dolore mollit esse commodo nulla eu adipisicing minim pariatur magna reprehenderit fugiat.
+            ”
+          </strong>
+          <span
+            className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+          >
+            jdoe
+             
+            <span
+              title="April 18, 2017 @ 04:40 pm"
+            >
+              April 18, 2017 @ 04:40 pm
+            </span>
+          </span>
+          <span
+            className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+            title="0bbe19ba81766944924475ed5cee58d514ff0e7e"
+          >
+            0bbe19b
+          </span>
+        </a>
+      </li>
+    </div>
+  </ol>
+</div>
+`;
+
+exports[`Storyshots RevisionSelectMenuList basic 1`] = `
+<ol
+  className="SelectMenu__RevisionList-djyMud jCKnhX"
+>
+  <div>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Dolore pariatur laboris aliquip sit ut ipsum minim ut.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          kshenk
+           
+          <span
+            title="April 19, 2017 @ 06:00 am"
+          >
+            April 19, 2017 @ 06:00 am
+          </span>
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="fae4850800c994b440ebd7325cd93c20ae70780e"
+        >
+          fae4850
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Veniam adipisicing anim excepteur est deserunt duis minim minim culpa Lorem id culpa occaecat.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          trob
+           
+          <span
+            title="April 19, 2017 @ 02:40 am"
+          >
+            April 19, 2017 @ 02:40 am
+          </span>
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="4ee94fd8e3029aa74d0a6d22928c47bcf693e461"
+        >
+          4ee94fd
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Culpa dolore culpa dolore officia deserunt laborum deserunt deserunt minim eiusmod culpa.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          earino
+           
+          <span
+            title="April 18, 2017 @ 11:20 pm"
+          >
+            April 18, 2017 @ 11:20 pm
+          </span>
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="1c65a9ad03cd871c7d27af72259ca7088160ffb9"
+        >
+          1c65a9a
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Labore qui voluptate adipisicing ut ex tempor.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          jdoe
+           
+          <span
+            title="April 18, 2017 @ 08:00 pm"
+          >
+            April 18, 2017 @ 08:00 pm
+          </span>
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="d21782d260aa1326252a872942f1279545d4c7bb"
+        >
+          d21782d
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Amet aute reprehenderit dolore mollit esse commodo nulla eu adipisicing minim pariatur magna reprehenderit fugiat.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          jdoe
+           
+          <span
+            title="April 18, 2017 @ 04:40 pm"
+          >
+            April 18, 2017 @ 04:40 pm
+          </span>
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="0bbe19ba81766944924475ed5cee58d514ff0e7e"
+        >
+          0bbe19b
+        </span>
+      </a>
+    </li>
+  </div>
+</ol>
+`;
+
+exports[`Storyshots RevisionSelectMenuList filter on "excepteur" 1`] = `
+<ol
+  className="SelectMenu__RevisionList-djyMud jCKnhX"
+>
+  <div>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Veniam adipisicing anim excepteur est deserunt duis minim minim culpa Lorem id culpa occaecat.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          trob
+           
+          <span
+            title="April 19, 2017 @ 02:40 am"
+          >
+            April 19, 2017 @ 02:40 am
+          </span>
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="4ee94fd8e3029aa74d0a6d22928c47bcf693e461"
+        >
+          4ee94fd
+        </span>
+      </a>
+    </li>
+  </div>
+</ol>
+`;
+
+exports[`Storyshots RevisionSelectMenuList with run ids 1`] = `
+<ol
+  className="SelectMenu__RevisionList-djyMud jCKnhX"
+>
+  <div>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Dolore pariatur laboris aliquip sit ut ipsum minim ut.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          kshenk
+           
+          <span
+            title="April 19, 2017 @ 06:00 am"
+          >
+            April 19, 2017 @ 06:00 am
+          </span>
+           · #2
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="fae4850800c994b440ebd7325cd93c20ae70780e"
+        >
+          fae4850
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Veniam adipisicing anim excepteur est deserunt duis minim minim culpa Lorem id culpa occaecat.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          trob
+           
+          <span
+            title="April 19, 2017 @ 02:40 am"
+          >
+            April 19, 2017 @ 02:40 am
+          </span>
+           · #70
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="4ee94fd8e3029aa74d0a6d22928c47bcf693e461"
+        >
+          4ee94fd
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Culpa dolore culpa dolore officia deserunt laborum deserunt deserunt minim eiusmod culpa.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          earino
+           
+          <span
+            title="April 18, 2017 @ 11:20 pm"
+          >
+            April 18, 2017 @ 11:20 pm
+          </span>
+           · #38
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="1c65a9ad03cd871c7d27af72259ca7088160ffb9"
+        >
+          1c65a9a
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Labore qui voluptate adipisicing ut ex tempor.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          jdoe
+           
+          <span
+            title="April 18, 2017 @ 08:00 pm"
+          >
+            April 18, 2017 @ 08:00 pm
+          </span>
+           · #94
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="d21782d260aa1326252a872942f1279545d4c7bb"
+        >
+          d21782d
+        </span>
+      </a>
+    </li>
+    <li
+      className="SelectMenu__RevisionListItem-glATSC czmAhm"
+    >
+      <a
+        className="SelectMenu__RevisionListItemLink-gwPFCG cfJDTI"
+        href="#"
+        onClick={[Function]}
+      >
+        <strong
+          className="SelectMenu__RevisionListItemMessage-yqITP kkoizf"
+        >
+          “
+          Amet aute reprehenderit dolore mollit esse commodo nulla eu adipisicing minim pariatur magna reprehenderit fugiat.
+          ”
+        </strong>
+        <span
+          className="SelectMenu__RevisionListItemMeta-iukToS dkpGhJ"
+        >
+          jdoe
+           
+          <span
+            title="April 18, 2017 @ 04:40 pm"
+          >
+            April 18, 2017 @ 04:40 pm
+          </span>
+        </span>
+        <span
+          className="SelectMenu__RevisionListItemSha-kPCwIx NePFg"
+          title="0bbe19ba81766944924475ed5cee58d514ff0e7e"
+        >
+          0bbe19b
+        </span>
+      </a>
+    </li>
+  </div>
+</ol>
+`;

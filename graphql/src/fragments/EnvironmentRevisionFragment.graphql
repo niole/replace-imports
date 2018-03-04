@@ -1,0 +1,10 @@
+#import "./EnvironmentFragment.graphql"
+
+fragment EnvironmentRevisionFragment on EnvironmentRevision {
+  id
+  environment {
+    ...EnvironmentFragment
+  }
+  number
+  url
+}

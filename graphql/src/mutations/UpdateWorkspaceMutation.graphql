@@ -1,0 +1,17 @@
+#import "../fragments/WorkspaceFragment.graphql"
+
+mutation UpdateWorkspaceMutation(
+  $workspaceId: ID!
+  $title: String!
+) {
+  updateWorkspace(
+    input: {
+      workspaceId: $workspaceId
+      title: $title
+    }
+  ) {
+    workspace {
+      ...WorkspaceFragment
+    }
+  }
+}

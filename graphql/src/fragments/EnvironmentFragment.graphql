@@ -1,0 +1,5 @@
+fragment EnvironmentFragment on Environment {
+  id
+  name
+  url
+}

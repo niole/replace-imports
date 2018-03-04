@@ -1,0 +1,17 @@
+#import "../fragments/ProjectFragment.graphql"
+
+mutation UpdateProjectMutation(
+  $projectId: ID!
+  $selectedHardwareTierId: ID!
+) {
+  updateProject(
+    input: {
+      projectId: $projectId
+      selectedHardwareTierId: $selectedHardwareTierId
+    }
+  ) {
+    project {
+      ...ProjectFragment
+    }
+  }
+}

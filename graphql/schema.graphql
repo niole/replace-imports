@@ -1,0 +1,831 @@
+# Input data for the `archiveRun` mutation.
+input ArchiveRunInput {
+  # The ID of the run to archive.
+  runId: ID!
+}
+
+# Return type for the `archiveRun` mutation.
+type ArchiveRunPayload {
+  workspace: Workspace!
+}
+
+# Input data for the `archiveWorkspace` mutation.
+input ArchiveWorkspaceInput {
+  # The ID of the workspace to archive.
+  workspaceId: ID!
+}
+
+# Return type for the `archiveWorkspace` mutation.
+type ArchiveWorkspacePayload {
+  workspace: Workspace!
+}
+
+# The `BigDecimal` scalar type represents signed fractional values with arbitrary precision.
+scalar BigDecimal
+
+# The `BigInt` scalar type represents non-fractional signed whole numeric values. BigInt can represent arbitrary big values.
+scalar BigInt
+
+# A git commit
+type Commit implements Node {
+  # The commit's canonical ID.
+  id: ID!
+
+  # The commit message
+  message: String!
+
+  # The author of this commit.
+  author: User
+
+  # The time at which this commit was created.
+  createdAt: DateTime!
+
+  # The HTTP URL for this commit.
+  url: URI!
+}
+
+# A Connection from one entity type to another.
+interface Connection {
+  # A list of edges.
+  edges: [Edge]
+
+  # A list of nodes.
+  nodes: [Node]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # The count of edges.
+  totalCount: Int!
+}
+
+# A currence code (e.g. "USD"; https://en.wikipedia.org/wiki/ISO_4217).
+enum CurrencyCode {
+  # United States Dollars.
+  USD
+}
+
+# An ISO-8601 encoded UTC date string.
+scalar DateTime
+
+# Information regarding this Domino deployment
+type DeploymentInfo {
+  # This deployment is hosted by Domino.
+  hostedByDomino: Boolean!
+
+  # This deployment is hosted on a cloud provider (AWS), as opposed to on-premises hardware.
+  cloudHosted: Boolean!
+
+  # A URL suitable for use in a link titled "Please contact support" (e.g `"mailto:domino-support@starkindustries.com"`)
+  contactSupportUrl: URI!
+}
+
+# An edge from one Node to another Node.
+interface Edge {
+  # A cursor for use in pagination.
+  cursor: String!
+
+  # The item at the end of the edge.
+  node: Node
+}
+
+# A hardware tier.
+type HardwareTier implements Node {
+  # The hardware tier's canonical ID.
+  id: ID!
+
+  # The hardware tier's human-readable name
+  name: String!
+
+  # The hardware tier's human-readable unique title
+  title: String!
+
+  # The number of CPU cores for instances in the hardware tier.
+  cores: Int!
+
+  # The number of Gigabytes (GBs) of RAM (memory) installed on instances in the hardware tier
+  RAM: Int!
+
+  # Indicates if the hardware tier should be hidden from being displayed to a User
+  # in the application. These tiers are not necessarily prevented from having runs
+  # executed against them by being hidden.
+  hidden: Boolean!
+
+  # The price of running this hardware tier.
+  price: HardwareTierPrice
+}
+
+# The connection type for a HardwareTier
+type HardwareTierConnection implements Connection {
+  # A list of edges.
+  edges: [HardwareTierEdge]
+
+  # A list of nodes.
+  nodes: [HardwareTier]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # The count of edges.
+  totalCount: Int!
+}
+
+# The connection type for a HardwareTier
+type HardwareTierEdge implements Edge {
+  # The item at the end of the edge.
+  node: HardwareTier
+
+  # A cursor for use in pagination.
+  cursor: String!
+}
+
+# A filter for filtering hardware tiers
+input HardwareTierFilter {
+  # When non-null, match only hardware tiers with the given hidden state
+  hidden: Boolean = false
+}
+
+# A price per unit of measure.
+type HardwareTierPrice {
+  # Cost to use HardwareTier per unit.
+  unitPrice: Money!
+
+  # The unit of measure, e.g.: `MINUTE`
+  unit: HardwareTierPriceUnit!
+}
+
+# Unit of measure to calculate the cost of using a HardwareTier, e.g. `MINUTE`.
+# In the future it may be possible to price HardwareTier usage per Run or have different pricing structures
+enum HardwareTierPriceUnit {
+  # Use of this hardware tier is charged by the minute.
+  Minute
+}
+
+# Input data for launching a Workspace.
+input LaunchWorkspaceInput {
+  projectId: ID!
+  workspaceDefinitionId: ID!
+  title: String
+  hardwareTierId: ID
+  commitId: ID
+}
+
+# Return type for Launch Workspace mutation.
+type LaunchWorkspacePayload {
+  workspace: Workspace!
+}
+
+# The `Long` scalar type represents non-fractional signed whole numeric values.
+# Long can represent values between -(2^63) and 2^63 - 1.
+scalar Long
+
+# A monetary value.
+type Money {
+  # The value.
+  value: Float!
+
+  # The currency.
+  currencyCode: CurrencyCode!
+}
+
+type Mutation {
+  # Launches a Workspace.
+  launchWorkspace(input: LaunchWorkspaceInput!): LaunchWorkspacePayload!
+
+  # Updates a workspace.
+  updateWorkspace(input: UpdateWorkspaceInput!): UpdateWorkspacePayload!
+
+  # Updates a run.
+  updateRun(input: UpdateRunInput!): UpdateRunPayload!
+
+  # Stops a workspace.
+  stopWorkspace(input: StopWorkspaceInput!): StopWorkspacePayload!
+
+  # Stops a run.
+  stopRun(input: StopRunInput!): StopRunPayload!
+
+  # Archives a workspace.
+  archiveWorkspace(input: ArchiveWorkspaceInput!): ArchiveWorkspacePayload!
+
+  # Archives a run.
+  archiveRun(input: ArchiveRunInput!): ArchiveRunPayload!
+}
+
+# A Node in the Graph.
+interface Node {
+  # The Node's identifier.
+  id: ID!
+}
+
+# The direction of ordering
+enum OrderDirection {
+  # Ascending order
+  ASC
+
+  # Descending order
+  DESC
+}
+
+# Information about pagination in a connection.
+type PageInfo {
+  # When paginating forwards, the cursor to continue.
+  endCursor: String
+
+  # When paginating forwards, are there more items?
+  hasNextPage: Boolean!
+
+  # When paginating backwards, are there more items?
+  hasPreviousPage: Boolean!
+
+  # When paginating backwards, the cursor to continue.
+  startCursor: String
+}
+
+# A Project in Domino.
+type Project implements Node {
+  # The id of the Project.
+  id: ID!
+
+  # The name of the Project.
+  name: String!
+
+  # The full name of the Project including the owner username.
+  fullName: String!
+
+  # The owner of the project.
+  owner: ProjectOwner!
+
+  # The default hardware tier.
+  selectedHardwareTier: HardwareTier
+
+  # Hardware tiers available to this project.
+  availableHardwareTiers(filterBy: HardwareTierFilter): HardwareTierConnection!
+
+  # Workspace definitions available to this project.
+  availableWorkspaceDefinitions: WorkspaceDefinitionConnection!
+
+  # Runs in this project
+  runs(
+    filterBy: RunFilter
+    orderBy: [RunOrder!]
+    first: Int
+    after: String
+    last: Int
+    before: String
+  ): RunConnection!
+
+  # Workspaces for this project.
+  workspaces(
+    filterBy: WorkspaceFilter
+    orderBy: [WorkspaceOrder!]
+    first: Int
+    after: String
+    last: Int
+    before: String
+  ): WorkspaceConnection!
+}
+
+# An object that can own a Domino project (either a User or an Organization).
+interface ProjectOwner {
+  # The username of the project owner.
+  username: String!
+
+  # The HTTP URL for this project owner.
+  url: URI!
+}
+
+type Query {
+  # The authenticated user.
+  viewer: User!
+
+  # Returns a project with the given id.
+  project(
+    id: ID
+
+    # The full name (including the owner username) of a project to Query.
+    fullName: String
+  ): Project
+
+  # Information regarding this Domino deployment.
+  deploymentInfo: DeploymentInfo!
+}
+
+# A Run in the system
+type Run implements Node {
+  # Run's canonical ID.
+  id: ID!
+
+  # Project to which the Run belongs.
+  project: Project
+
+  # User that started the Run execution.
+  creator: User
+
+  # The run title.
+  title: String
+
+  # The commit used as input for the run
+  inputCommit: Commit!
+
+  # The commit generated by the run
+  outputCommit: Commit
+
+  # Run status
+  status: RunStatus!
+
+  # Run number within the Project
+  number: Int!
+
+  # Activity events for the Run.
+  events(first: Int, after: String, last: Int, before: String): RunEventConnection!
+
+  # The latest event.
+  latestEvent: RunEvent
+
+  # The time this run was queued. Same as `createdAt`.
+  queuedAt: DateTime!
+
+  # The time this run was created.
+  createdAt: DateTime!
+
+  # This time this run was started.
+  startedAt: DateTime
+
+  # time this run was completed.
+  completedAt: DateTime
+
+  # URL to display the Run.
+  url: URI
+}
+
+# The connection type for a Run
+type RunConnection implements Connection {
+  # A list of edges.
+  edges: [RunEdge]
+
+  # A list of nodes.
+  nodes: [Run]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # The count of edges.
+  totalCount: Int!
+}
+# The edge type for a Run.
+type RunEdge implements Edge {
+  # The item at the end of the edge.
+  node: Run
+
+  # A cursor for use in pagination.
+  cursor: String!
+}
+
+# An event in the lifecycle or execution of a Run.
+type RunEvent implements Node {
+  # The Run Event's canonical ID.
+  id: ID!
+
+  # The type of event.
+  type: RunEventType!
+
+  # The time at which this event occurred.
+  occurredAt: DateTime!
+
+  # The run state prior to this event.
+  previousStatus: RunStatus
+
+  # The run state at the time of this event.
+  status: RunStatus!
+
+  # The hardware tier relevant to the event
+  hardwareTier: HardwareTier
+}
+
+# The connection type for a RunEvent
+type RunEventConnection implements Connection {
+  # A list of edges.
+  edges: [RunEventEdge]
+
+  # A list of nodes.
+  nodes: [RunEvent]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # The count of edges.
+  totalCount: Int!
+}
+
+# The connection type for a RunEvent
+type RunEventEdge implements Edge {
+  # The item at the end of the edge.
+  node: RunEvent
+
+  # A cursor for use in pagination.
+  cursor: String!
+}
+
+enum RunEventType {
+  # No extra capacity available.
+  NO_EXTRA_CAPACITY_AVAILABLE
+
+  # Executor limit for hardware tier encountered.
+  EXECUTOR_LIMIT_FOR_HARDWARE_TIER_ENCOUNTERED
+
+  # Hardware provider account limit encountered.
+  HARDWARE_PROVIDER_ACCOUNT_LIMIT_ENCOUNTERED
+
+  # Hardware provider capacity limit encountered.
+  HARDWARE_PROVIDER_CAPACITY_LIMIT_ENCOUNTERED
+
+  # New executor instance launched.
+  NEW_EXECUTOR_INSTANCE_LAUNCHED
+
+  # Runs per user limit encountered.
+  RUNS_PER_USER_LIMIT_ENCOUNTERED
+
+  # Run scheduled.
+  RUN_SCHEDULED
+
+  # Existing executor instance started.
+  EXISTING_EXECUTOR_INSTANCE_STARTED
+
+  # Launching new executor instance failed.
+  LAUNCHING_NEW_EXECUTOR_INSTANCE_FAILED
+
+  # Run scheduling failed.
+  RUN_SCHEDULING_FAILED
+
+  # Starting existing executor instance failed.
+  STARTING_EXISTING_EXECUTOR_INSTANCE_FAILED
+
+  # Dispatcher action processing failed.
+  DISPATCHER_ACTION_PROCESSING_FAILED
+
+  # Waiting for executor instance to start.
+  WAITING_FOR_EXECUTOR_INSTANCE_TO_START
+
+  # Executor became unhealthy.
+  EXECUTOR_BECAME_UNHEALTHY
+
+  # Domino encountered a problem.
+  DOMINO_ENCOUNTERED_A_PROBLEM
+
+  # Run created.
+  RUN_CREATED
+
+  # Run status changed.
+  RUN_STATUS_CHANGED
+
+  # Not handled by dispatcher.
+  NOT_HANDLED_BY_DISPATCHER
+}
+
+# Filters runs
+input RunFilter {
+  # When non-null, match only runs that match the given status filter
+  status: RunStatusFilter
+
+  # When non-null, match only runs that are archived (if `true`) or not archived (if `false`)
+  archived: Boolean
+}
+
+# Filters runs
+input RunOrder {
+  field: RunOrderField!
+  direction: OrderDirection!
+}
+
+# An ordering field for workspaces
+enum RunOrderField {
+  STATUS
+  TITLE
+  CREATED_AT
+  CREATOR_USERNAME
+}
+
+# Latest status of a run.
+type RunStatus {
+  # The internal value of a run's status. Use of boolean fields like `queued`, `starting`, `running` is preferred.
+  value: RunStatusValue!
+
+  # An opaque integer that can be used to rank runs based on their relative
+  # progress. A higher integer indicates a run that is further along in its
+  # state. This should only be used comparatively.
+  sortValue: Int!
+
+  # Waiting to be assigned to an executor.
+  queued: Boolean!
+
+  # Started in an executor. Not related to the concept of 'scheduled run'.
+  scheduled: Boolean!
+
+  # Preparing to start process.
+  preparing: Boolean!
+
+  # Building environment.
+  building: Boolean!
+
+  # Pulling Docker image.
+  pulling: Boolean!
+
+  # Serving requests via a published port.
+  serving: Boolean!
+
+  # Stop was requested by the user.
+  stopRequested: Boolean!
+
+  # User requested to stop and to discard changes.
+  stopAndDiscardRequested: Boolean!
+
+  # In the process of being stopped by user request.
+  stopping: Boolean!
+
+  # Uploading results.
+  finishing: Boolean!
+
+  # Interrupted by user request.
+  stopped: Boolean!
+
+  # Terminated without error.
+  succeeded: Boolean!
+
+  # Terminated with error.
+  failed: Boolean!
+
+  # Aborted due to an unexpected error in the system, not in the run code.
+  error: Boolean!
+
+  # Starting: `scheduled`, `preparing`, `building`, `pulling`.
+  starting: Boolean!
+
+  # Running: `running`, `serving`.
+  running: Boolean!
+
+  # Running or preparing to run: `Scheduled`, `Preparing`, `Building`, `Pulling`, `Running`, `Serving`.
+  active: Boolean!
+
+  # Soon to be completed: `StopRequested
+  completing: Boolean!
+
+  # Prepareing to run, running, or soon to be completed: `Scheduled`, `Preparing`,
+  # `Building`, `Pulling`, `Running`, `Serving`, `StopRequested`,
+  # `StopAndDiscardRequested`, `Stopping`, `Finishing`.
+  inProgress: Boolean!
+
+  # Completed successfully or otherwise: `Stopped`, `Succeeded`, `Failed`, `Error`.
+  completed: Boolean!
+
+  # Completed successfully: `Stopped`, `Succeeded`.
+  completedSuccessfully: Boolean!
+
+  # Completed, but not successfully: `Failed`, `Error`.
+  completedUnsuccessfully: Boolean!
+
+  # Can be stopped: `Queued`, `Running`, `Serving`.
+  stoppable: Boolean!
+}
+
+# An input object for filtering workspaces (SC: only including completed here for now - it's the only one I need)
+input RunStatusFilter {
+  # When non-null, match only runs that are completed (if `true`) or not completed (if `false`)
+  completed: Boolean
+}
+
+enum RunStatusValue {
+  # Waiting to be assigned to an executor.
+  QUEUED
+
+  # Started in an executor. Not related to the concept of 'scheduled run'.
+  SCHEDULED
+
+  # Preparing to start process.
+  PREPARING
+
+  # Building environment.
+  BUILDING
+
+  # Pulling Docker image.
+  PULLING
+
+  # Process is running.
+  RUNNING
+
+  # Serving requests via a published port.
+  SERVING
+
+  # Stop was requested by the user.
+  STOP_REQUESTED
+
+  # User requested to stop and to discard changes.
+  STOP_AND_DISCARD_REQUESTED
+
+  # In the process of being stopped by user request.
+  STOPPING
+
+  # Uploading results.
+  FINISHING
+
+  # Interrupted by user request.
+  STOPPED
+
+  # Terminated without error.
+  SUCCEEDED
+
+  # Terminated with error.
+  FAILED
+
+  # Aborted due to an unexpected error in the system, not in the run code.
+  ERROR
+}
+
+# Input data for the `stopRun` mutation.
+input StopRunInput {
+  # The ID of the run to stop.
+  runId: ID!
+
+  # Provide `true` to generate a new commit with changes made in the run, or `false` to discard changes.
+  commitChangesToProject: Boolean!
+
+  # Provide `true` to ignore changes made in imported repositories
+  ignoreRepoState: Boolean!
+
+  # Optionally provide a commit message for the changes to be committed by this run
+  commitMessage: String
+}
+
+# Return type for the `stopRun` mutation.
+type StopRunPayload {
+  workspace: Workspace!
+}
+
+# Input data for the `stopWorkspace` mutation.
+input StopWorkspaceInput {
+  # The ID of the workspace to stop.
+  workspaceId: ID!
+
+  # Provide `true` to generate a new commit with changes made in the workspace, or `false` to discard changes.
+  commitChangesToProject: Boolean!
+
+  # Provide `true` to ignore changes made in imported repositories
+  ignoreRepoState: Boolean!
+
+  # Optionally provide a commit message for the changes to be committed by this workspace
+  commitMessage: String
+}
+
+# Return type for the `stopWorkspace` mutation.
+type StopWorkspacePayload {
+  workspace: Workspace!
+}
+
+# An RFC 3986, RFC 3987, and RFC 6570 (level 4) compliant URI string.
+scalar URI
+
+# A User of the Domino Platform.
+type User implements ProjectOwner, Node {
+  # The user's ID.
+  id: ID!
+
+  # The username of the User.
+  username: String!
+
+  # True if the user is the viewing user.
+  isViewer: Boolean!
+
+  # The HTTP URL for this project owner.
+  url: URI!
+}
+
+# A Workspace execution, current or past.
+type Workspace implements Node {
+  # Workspaces's canonical ID.
+  id: ID!
+
+  # The project this workspace is owned by.
+  project: Project!
+
+  # The run this workspace is backed by.
+  run: Run!
+
+  # The definition used to initiate this workspace
+  definition: WorkspaceDefinition
+
+  # The relative URL for this workspace
+  url: URI!
+}
+
+# The connection type for a Workspace
+type WorkspaceConnection implements Connection {
+  # A list of edges.
+  edges: [WorkspaceEdge]
+
+  # A list of nodes.
+  nodes: [Workspace]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # The count of edges.
+  totalCount: Int!
+}
+
+# A definition for a specific kind of workspace.
+type WorkspaceDefinition implements Node {
+  # The workspace definition's canonical ID.
+  id: ID!
+
+  # An optional icon.
+  iconUrl: URI
+
+  # The workspace definition's name.
+  name: String!
+
+  # The workspace definition's title.
+  title: String!
+}
+
+# The connection type for a WorkspaceDefinition
+type WorkspaceDefinitionConnection implements Connection {
+  # A list of edges.
+  edges: [WorkspaceDefinitionEdge]
+
+  # A list of nodes.
+  nodes: [WorkspaceDefinition]
+
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # The count of edges.
+  totalCount: Int!
+}
+
+# The connection type for a WorkspaceDefinition
+type WorkspaceDefinitionEdge implements Edge {
+  # The item at the end of the edge.
+  node: WorkspaceDefinition
+
+  # A cursor for use in pagination.
+  cursor: String!
+}
+
+# The connection type for a Workspace
+type WorkspaceEdge implements Edge {
+  # The item at the end of the edge.
+  node: Workspace
+
+  # A cursor for use in pagination.
+  cursor: String!
+}
+
+# An input object for filtering workspaces (SC: only including completed here for now)
+input WorkspaceFilter {
+  # When non-null, match only workspaces that match the given run filter
+  run: RunFilter
+
+  # When non-null, match only workspaces that are archived (if `true`) or not archived (if `false`)
+  archived: Boolean
+}
+
+# Filters workspaces
+input WorkspaceOrder {
+  field: WorkspaceOrderField!
+  direction: OrderDirection!
+}
+
+# An ordering field for workspaces
+enum WorkspaceOrderField {
+  RUN_STATUS
+  RUN_TITLE
+  RUN_CREATED_AT
+  RUN_CREATOR_USERNAME
+}
+
+# Input data for the `updateWorkspace` mutation.
+input UpdateWorkspaceInput {
+  # The ID of the workspace to update.
+  workspaceId: ID!
+
+  # When provided, updates the workspace's run title
+  runTitle: String
+}
+
+# Return type for the `updateWorkspace` mutation.
+type UpdateWorkspacePayload {
+  workspace: Workspace!
+}
+
+# Input data for the `updateRun` mutation.
+input UpdateRunInput {
+  # The ID of the run to update.
+  runId: ID!
+
+  # When provided, updates the run's title
+  title: Boolean!
+}
+
+# Return type for the `updateRun` mutation.
+type UpdateRunPayload {
+  workspace: Workspace!
+}

@@ -1,0 +1,13 @@
+#import "../fragments/WorkspaceFragment.graphql"
+#import "../fragments/WorkspaceModificationsFragment.graphql"
+
+query WorkspaceQuery(
+  $workspaceId: ID!
+  $includeModifications: Boolean = false
+  $includeFileModifications: Boolean = false
+) {
+  workspace(id: $workspaceId) {
+    ...WorkspaceFragment
+    ...WorkspaceModificationsFragment
+  }
+}

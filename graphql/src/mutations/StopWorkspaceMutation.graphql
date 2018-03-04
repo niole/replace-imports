@@ -1,0 +1,21 @@
+#import "../fragments/WorkspaceFragment.graphql"
+
+mutation StopWorkspaceMutation(
+  $workspaceId: ID!
+  $commitChangesToProject: Boolean!
+  $ignoreRepositoriesState: Boolean!
+  $commitMessage: String
+) {
+  stopWorkspace(
+    input: {
+      workspaceId: $workspaceId
+      commitChangesToProject: $commitChangesToProject
+      ignoreRepositoriesState: $ignoreRepositoriesState
+      commitMessage: $commitMessage
+    }
+  ) {
+    workspace {
+      ...WorkspaceFragment
+    }
+  }
+}

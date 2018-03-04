@@ -1,0 +1,31 @@
+fragment RunStatusFragment on RunStatus {
+  # Value provides the underlying value as defined in RunStatus.scala
+  value
+
+  # These fields map 1:1 to the individual states in RunStatus.scala
+  queued
+  scheduled
+  preparing
+  building
+  pulling
+  serving
+  serving
+  stopping
+  finishing
+  stopped
+  succeeded
+  failed
+  error
+
+  # These fields are compound states that map to sets of states in
+  # RunStatus.scala
+  starting
+  running
+  active
+  completing
+  inProgress
+  completed
+  completedSuccessfully
+  completedUnsuccessfully
+  stoppable
+}

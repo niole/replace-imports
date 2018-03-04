@@ -1,0 +1,5 @@
+fragment DeploymentInfoFragment on DeploymentInfo {
+  hostedByDomino
+  cloudHosted
+  contactSupportUrl
+}

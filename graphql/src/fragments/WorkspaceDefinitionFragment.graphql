@@ -1,0 +1,5 @@
+fragment WorkspaceDefinitionFragment on WorkspaceDefinition {
+  id
+  title
+  iconUrl
+}

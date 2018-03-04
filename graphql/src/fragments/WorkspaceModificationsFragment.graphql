@@ -1,0 +1,17 @@
+#import "./WorkspaceFragment.graphql"
+
+fragment WorkspaceModificationsFragment on Workspace {
+  ...WorkspaceFragment
+  modifications @include(if: $includeModifications) {
+    mainWorkingDirectory {
+      state
+      createdFilesCount
+      updatedFilesCount
+      deletedFilesCount
+      files @include(if: $includeFileModifications) {
+        type
+        path
+      }
+    }
+  }
+}

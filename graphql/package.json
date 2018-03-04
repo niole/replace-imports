@@ -1,0 +1,29 @@
+{
+  "name": "@domino/graphql",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "reactComponentsMain": "src/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "get-schema": "graphql get-schema ${GRAPHQL_CONFIG_ENDPOINT_NAME:-default}",
+    "playground": "graphql playground",
+    "voyager": "graphql voyager",
+    "generate-json-schema": "apollo-codegen introspect-schema schema.graphql",
+    "diff": "graphql diff ${GRAPHQL_CONFIG_ENDPOINT_NAME:-default}",
+    "diff-prod": "graphql diff prod",
+    "diff-trial": "graphql diff trial",
+    "diff-cloud-rc": "graphql diff cloud-rc",
+    "diff-cloud-snapshot": "graphql diff cloud-snapshot",
+    "diff-minikube": "graphql diff minikube"
+  },
+  "dependencies": {
+    "apollo-codegen": "^0.16.5",
+    "graphql-tag": "^2.6.1",
+    "graphql-tools": "^1.2.1"
+  },
+  "devDependencies": {
+    "@domino/build-utils": "*",
+    "graphql-cli": "^1.1.0",
+    "graphql-cli-voyager": "^0.1.2"
+  }
+}

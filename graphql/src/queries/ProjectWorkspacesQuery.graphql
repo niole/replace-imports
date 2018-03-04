@@ -1,0 +1,27 @@
+#import "../fragments/WorkspaceFragment.graphql"
+#import "../fragments/ProjectFragment.graphql"
+
+query ProjectWorkspacesQuery($projectId: ID!, $completed: Boolean) {
+  project(id: $projectId) {
+    ...ProjectFragment
+    workspaces(
+      filterBy: {
+        archived: false
+        run: {
+          status: {
+            completed: $completed
+          }
+        }
+      }
+    ) {
+      nodes {
+        ...WorkspaceFragment
+      }
+    }
+  }
+  deploymentInfo {
+    hostedByDomino
+    cloudHosted
+    contactSupportUrl
+  }
+}

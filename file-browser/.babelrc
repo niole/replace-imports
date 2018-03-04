@@ -1,0 +1,5 @@
+{
+  "presets": [
+    "@domino/build-utils/babel-preset"
+  ]
+}

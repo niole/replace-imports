@@ -1,0 +1,7 @@
+#import "../fragments/DeploymentInfoFragment.graphql"
+
+query DeploymentInfoQuery {
+  deploymentInfo {
+    ...DeploymentInfoFragment
+  }
+}
